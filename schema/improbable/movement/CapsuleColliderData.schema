@@ -1,0 +1,12 @@
+package improbable.movement;
+  
+ component CapsuleColliderData {
+   id = 1234;
+   bool trigger = 1; // a property
+   float center_x = 2; // another property
+   float center_y = 3; // another property
+   float center_z = 4; // another property
+   float radius = 5;
+   float height = 6;
+ }
+  
