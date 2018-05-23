@@ -1,0 +1,19 @@
+package improbable.movement;
+  type Strafe {}
+  type Sprint {}
+  type Crouch {}
+  type Jump {}
+  type Roll {}
+ component PlayerInputData {
+   id = 1235;
+   float input_x = 1;
+   float input_y = 2;
+   improbable.Coordinates lock_target_pos = 3;
+   float camera_rotation = 4;
+   event Strafe strafe;
+   event Sprint sprint;
+   event Crouch crouch;
+   event Jump jump;
+   event Roll roll;
+ }
+  
